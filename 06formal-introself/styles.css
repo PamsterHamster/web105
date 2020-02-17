@@ -1,8 +1,9 @@
-body{
+body {
     background-color: rgb(17, 57, 133);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+    color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
+
 h1, h2{
     color: ivory;
     text-align: center;
@@ -18,5 +19,29 @@ h1, h2{
 a{
     color: black;
     font-size: 1.1 em;
-    padding: 10px;
+    padding: 30px;
 }
+
+nav {
+            text-align: center;
+            line-height: 3;
+        }
+
+        nav a {
+            text-decoration: none;
+            background: black;
+            border: 3px solid rgb(141, 176, 241);
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 10px 20px;
+            color: cornflowerblue;
+        }
+
+        nav a:visited {
+            color: gold;
+        }
+
+        nav a:hover {
+            background: rgb(17, 17, 16);
+            color: red;
+        }
