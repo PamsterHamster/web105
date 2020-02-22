@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks,Ids,Classes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .countries {
+        background-color: navy;
+        color: gold;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .cities {
+        background-color: goldenrod;
+        color: navy;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .travelactivities {
+        background-color: yellowgreen;
+        color: palevioletred;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    #myHeader {
+        background-color: hotpink;
+        color: khaki;
+        padding: 40px;
+        text-align: center;
+    }
+
+    #myFooter {
+        background-color: black;
+        color: blanchedalmond;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #myQuote {
+        background-color: navy;
+        color: hotpink;
+        padding: 40px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container" id="outside">
+        <div class="container">
+            <h1>Blocks, Classes & Ids</h1>
+            <h2>Sample Block Elements</h2>
+            <div>
+                <h3 class="hotpink">Div</h3>
+                <p>I'm thinking about how to best use Div(s) on my travel project.
+                </p>
+                <h1>Blocks</h1>
+                <h2>1. Quote</h2>
+                <p>Here's a quote from the BBC news regarding tsundoku. I read a LOT, but am still guilty:</p>
+
+                <blockquote
+                    cite="https://getpocket.com/explore/item/tsundoku-the-art-of-buying-books-and-never-reading-them?utm_source=pocket-newtab">
+                    If this sounds like you, you might be unwittingly engaging in tsundoku - a Japanese term used to
+                    describe a
+                    person
+                    who owns a lot of unread literature.
+                </blockquote>
+                <p>&nbsp;</p>
+                <h2>2. Figure & Figcaption </h2>
+                <figure>
+                    <img src="angryguy.png" alt="angry guy" style="width: 20%">
+                    <figcaption>Fig.1 Me after repeating myself multiple times. <br>
+                        Applies mostly to children who don't pick up after themselves, not my students.<br>
+                        Yesterday it was over the spread of chocolate cupcake crumbs across the entire car backseat.<br>
+                        The car had just been detailed and vaccumed out prior to them entering (lesson learned).
+                    </figcaption>
+                </figure>
+
+                <h2>3. Video</h2>
+                <h4>I should still get credit for trying...</h4>
+
+                <video width="500" height="200" controls>
+                    <source src="https://www.youtube.com/embed/aF-Z1A0ujlg" frameborder="0">
+                    Your browser does not support this video tag.
+                    <p>I should still get credit for trying to get this one to work.</p>
+                </video>
+
+                <h2>4. The dl, dd, and dt elements</h2>
+                <p>Use these to create a description of something:</p>
+
+                <dl>
+                    <dt>Sauerkraut flavor potato chips</dt>
+                    <dd>no, no, no, never!</dd>
+                    <dt>Chicago Style Deep Dish Pizza</dt>
+                    <dd>I missed more than my family when living abroad</dd>
+                </dl>
+
+                <h2>5. The address element</h2>
+                <address>
+                    Written by <a href="malito:directorofstudies@example.com">Pam Becker</a>
+                    <br>
+                    Visit us at:<br>
+                    internationalschool.com example <br>
+                    Box 0123, Off-the-grid city<br>
+                    USA
+                </address>
+
+                <h2>6. The footer element</h2>
+                <footer>
+                    <p> photography by: Pamster Hamster</p>
+                    <p>Contact information: <a href="malito:somebody@example.com">somebody@example.com</a></p>
+                </footer>
+
+            </div>
+        </div>
+
+
+        <h2>The id Attribute</h2>
+        <p>My Header #1 id "myHeader":</p>
+        <h1 id="myHeader">Travels to Consider</h1>
+        <h2>The Classes: Countries, Cities, Travel Activities</h2>
+        <p>Class #1: Countries</p>
+        <div class="countries">
+            <h2>Czech Republic</h2>
+            <p>The Czech Republic is in the heart of central Europe.</p>
+        </div>
+
+        <div class="countries">
+            <h2>Israel</h2>
+            <p>Jerusalem is considered the holiest city in Israel.</p>
+        </div>
+
+        <div class="countries">
+            <h2>Malta</h2>
+            <p>Malta is an amazingly beautiful island-state in the Mediterranean Sea.</p>
+        </div>
+
+        <p>Class #2: Cities from Class #1</p>
+        <div class="cities">
+            <h2>Znojmo</h2>
+            <p>Znojmo is located in the wine country of southern Moravia, in the Czech Republic.</p>
+        </div>
+
+        <div class="cities">
+            <h2>Jerusalem</h2>
+            <p>Jerusalem is located in Israel.</p>
+        </div>
+
+        <div class="cities">
+            <h2>Gozo</h2>
+            <p>Gozo is the capital city of Malta.</p>
+        </div>
+
+        <p>Class #3: Travel Activities</p>
+        <div class="travelactivities">
+            <h2>Skiing: Downhill & Cross-country</h2>
+            <p>Many skiing spots have slopes and trails for all levels of ability.</p>
+        </div>
+
+        <div class="travelactivities">
+            <h2>Cycling</h2>
+            <p>Cycling through forests is especially fun and challenging.</p>
+        </div>
+
+        <div class="travelactivities">
+            <h2>Hiking</h2>
+            <p>Be sure to bring your hiking poles and water supply with you.</p>
+        </div>
+
+        <h2>The id Attribute</h2>
+        <p>My Footer #2 id "myFooter":</p>
+        <h1 id="myFooter">Seek the Adventure!</h1>
+
+        <h2>The id Attribute</h2>
+        <p>My Footer #3 id "myQuote":</p>
+        <h1 id="myQuote">"Oh the places you'll go!-Dr. Seuss</h1>
+
+
+
+
+        <div class="container" id="outside">
+            <h1>Inline Elements</h1>
+            <h2>1. Div</h2>
+            <div style="border: 2px solid maroon">This is my DIV. Like it?</div>
+
+            <h2>2 & 3. Image & the Cite Element</h2>
+            <img src="sadguy.png" width="230" height="200" alt="Not approved">
+            <p><cite>Approval Guy for pickle doritos</cite> by Taste Tester. Designed 1991.</p>
+
+            <h2>4. The Button</h2>
+            <button type="button" onclick="alert('OMG it works!')">Click Me!
+            </button>
+
+            <h2>5. Ordered List</h2>
+            <p>Preference on Drinks</p>
+            <ol>
+                <li>Peppermint mocha frappacino</li>
+                <li>Iced Tea: Raspberry</li>
+                <li>Hot Apple Cider</li>
+            </ol>
+</body>
+
+</html>
