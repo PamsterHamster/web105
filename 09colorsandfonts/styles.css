@@ -1,0 +1,82 @@
+
+
+:root{
+    --dark-primary-color:#435C70;
+   --light-primary-color:#ffc107;
+    --primary-color:#9e9e9e;
+    --text-icons:midnightblue;
+    --accent-color:#4caf50;
+    --primary-text:#fafafa;
+    --secondary-text:#81d4fa;
+    --divider-color: solid black;
+    --heading-font: 'Roboto Slab';
+    --text-font: 'Roboto Slab';
+}
+
+*{
+    box-sizing: border-box;
+    overflow: auto
+}
+body{
+    font-family: 'Roboto Slab';
+    font-size: 1.3em;
+    font-family: var(--text-font);
+    /* line-height: 1.5;*/
+    background: skyblue;
+}
+
+
+.container{
+    width: 94%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid gray;
+    }
+#BucketoAdventures {
+        /* background-color: lightskyblue; */
+        color: snow;
+        padding: 40px 35px 40px 10px;
+        text-align: center;
+    }
+
+header{
+    background: var(--text-icons);
+}
+
+#head-img{
+    float: left;
+    padding-top: 40px;
+    width: 20%;
+}
+
+    nav {
+        text-align: center;
+        line-height: 3;
+    }
+
+    nav a {
+        text-decoration: none;
+        background: black;
+        border: 6px solid gray;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin: 10px 20px;
+        color: greenyellow;
+    }
+
+    nav a:visited {
+        color: hotpink;
+    }
+
+    nav a:hover {
+        background: gold;
+        color: black;
+    }
+
+ #myFooter {
+        background-color: midnightblue;
+        color: snow;
+        padding: 5px;
+        text-align: center;
+    }
