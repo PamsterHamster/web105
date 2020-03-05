@@ -90,6 +90,8 @@ header{
         overflow: auto;
         border-radius: 25px;
         margin-right: 10px;
+        opacity: 70%; 
+        background-color:#0B1C41;
     }
 
     aside.container{
