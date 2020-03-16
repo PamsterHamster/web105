@@ -1,0 +1,256 @@
+/* -----------------------CSS Reset----------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   copied 07 March 2020
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background-color: midnightblue;
+    color:ivory;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------Variables-------------------- */
+:root {
+    --main-padding: 15px;
+    --main-bg-color:#001970;
+    --main-txt-color: #b0bec5;
+    --primary-color: orange;
+    --text-icons: #808e95;
+    --accent-color:black;
+    --primary-text: black;
+    --secondary-text: greenyellow;
+    --main-divider-color: black;
+    --main-heading-font: 'Poppins', sans-serif;
+    --main-txt-font: 'Roboto Slab';
+   
+}
+
+
+/* ------------Layout------------------ */
+body{
+    font-family: 'EB Garmond', serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: solid black;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: auto;
+    text-align: center;
+    background-color: orange;
+    border-radius: 25px;
+}
+aside {
+    width: 90%;
+    float: right;
+    background-color:orange;
+    margin-left: 40px;
+    margin-right: 20px; 
+    margin-top: 20px;
+    border: ivory;
+    border-radius: 25px;
+    font-size: large;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    color: orange;
+}
+
+main {
+    clear: both;
+}  
+
+aside {
+    clear: both;
+
+}  
+
+article {
+    clear: both;
+}
+
+div {
+    clear: both;
+}
+
+.left {
+    clear: both;
+    float: left;
+    padding: 25px;
+}
+
+.right {
+    clear: both;
+    float: right;
+    padding: 25px;
+}
+
+img {
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: 20px;
+    display: block;
+}
+/* cursor type: pointer */
+.pointer {cursor: pointer;}
+
+.horizontal-menu {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.horizontal-menu a {
+    text-decoration: none;
+    color: orchid;
+}
+
+/* navigation bar: fixed at top */
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: orange;
+  position: fixed center;
+  top: 250px;
+  width: 20%;
+  text-align: center;
+  color: black
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: olivedrab;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: yellow;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* nav bar end here */
+
+.top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    background: yellow
+}
+
+h1,h2{
+    color: orchid;
+    text-align: center;
+    margin: 10px;
+}
+h1{
+    font-size: xx-large;
+    color: ivory;
+}
+h2{
+    font-size: xx-large;
+    color: ivory;
+}
+
+nav{
+    background-color: palegreen;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.button{
+    color: black;
+    border: 5px solid gray;
+    padding: 10px 20px;
+    background: gold;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.button:hover{
+    color: gold;
+    background: hotpink;
+}
+.button:visited{
+    color: black;
+    background: gray;
+}
+p{
+    padding: 10px;
+}
+
