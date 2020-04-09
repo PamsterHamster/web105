@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.google.com/?category=Sans+Serif&selection.family=Fira+Sans                         "
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>HTML Forms | Survey</title>
+
+</head>
+<!--background image: Image by <a href="https://pixabay.com/users/Clker-Free-Vector-Images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=304338">Clker-Free-Vector-Images</a> 
+    from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=304338">Pixabay</a>-->
+
+
+<body>
+    <div class="container">
+        <H1>Quarantine Survey</H1>
+
+        <form>
+            <h2>Application to Keep Your Sanity</h2>
+            <img src="eyes.png" alt="crazy face">
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="fname" required autofocus><br>
+            <img src="eyes.png" alt="crazy face">
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <br>
+            <h3>Level of Sanity Before Quarantine</h3>
+            <br>
+            <input type="radio" id="ratingex" name="prequar" value="Excellent">
+            <label for="Excellent">Excellent. I'm/was the model of mental health.</label><br>
+            <input type="radio" id="ratinggood" name="prequar" value="Good">
+            <label for="Good">Good. I'm juggling all the balls I have just fine.</label><br>
+            <input type="radio" id="ratingavg" name="prequar" value="Average">
+            <label for="Average">Average. I've dropped a few balls, but it's about prioritizing.</label><br>
+            <input type="radio" id="ratingblwavg" name="prequar" value="Below Average">
+            <label for="Below Average">Below Average. I feel/felt depressed and life slowly slipping away.</label><br>
+            <input type="radio" id="ratingpoor" name="prequar" value="Poor">
+            <label for="Poor">I was a hot mess before Quarantine even began.</label><br>
+            <br>
+            <h3>Where is your mental health now?</h3>
+            <br>
+            <select id="mhnow" name="mhnow">
+                <option value="Paradise">Paradise. I'm an introvert and homebody with no kids/empty nest.</option>
+                <option value="Cabin Fever">A little cabin fever. At least Spring is here.</option>
+                <option value="Stir Crazy">Stir crazy. I've done all house projects, inside and out.</option>
+                <option value="Resentful">Resentful. Everbody/Everything is/are on my nerves and I can't stomach any
+                    more leftovers.</option>
+                <option value="Bonkers">Bonkers. Getting committed would be a gift.</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- Below may need own 'form'section if doesn't work-->
+            <h3>What TV show best describes your life in quarantine?</h3>
+            <br>
+            <p>Choose all that apply.</p>
+            <input type="checkbox" id="tvshow1" name="tvshow1" value="comedy">
+            <label for="tvshow1"> Friends</label><br>
+
+            <input type="checkbox" id="tvshow2" name="tvshow2" value="soapopera">
+            <label for="tvshow2"> The Longest Days of Our Lives</label><br>
+
+            <input type="checkbox" id="tvshow3" name="tvshow3" value="drama">
+            <label for="tvshow3"> Law & No Order</label><br>
+
+            <input type="checkbox" id="tvshow4" name="tvshow4" value="crime">
+            <label for="tvshow4"> CSI</label><br>
+
+            <input type="checkbox" id="tvshow5" name="tvshow5" value="misc">
+            <label for="tvshow5"> None of the above. I'm in a circus.</label><br>
+            <!--------------------------------------------------------------------->
+            <h3>Name three things you will do immediately once the quarantine is lifted.</h3>
+            <br>
+            <br>
+            <textarea name="Freedom Activities" rows="5" cols="50" placeholder="List your choices below">
+
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
